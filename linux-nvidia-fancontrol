@@ -1,4 +1,7 @@
 # linux-nvidia-fancontrol
 
 Open sudo nano /etc/X11/Xwrapper.config
-Add needs_root_rights=yes
+Add the line: 
+"needs_root_rights=yes"
+Coolbits 4
+sudo nvidia-xconfig --cool-bits=4
