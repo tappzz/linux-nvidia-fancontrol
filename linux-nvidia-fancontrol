@@ -1,4 +1,4 @@
-**Step 1**
+# **Step 1**
 Open >sudo nano /etc/X11/Xwrapper.config
 Add the line: 
 >needs_root_rights=yes
