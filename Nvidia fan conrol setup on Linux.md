@@ -3,9 +3,19 @@
 # Step 2
 ## Open Xwrapper config file
  > sudo vi /etc/X11/Xwrapper.config
-## Add the line
+## Before _allowed_users=console_ add the line 
  > needs_root_rights=yes
 
 # Step 3. Coolbits-4 installation
  > sudo nvidia-xconfig --cool-bits=4
 # Step 4. GreenWithEnvy installation
+ > flatpak --user install flathub com.leinardi.gwe
+
+
+
+
+
+Thanks to
+
+[Galang Hanafi](https://github.com/galanghanaf/fix-manual-fan-control-nvidia-linux) 
+[Roberto Leinardi ](https://gitlab.com/leinardi/gwe)
