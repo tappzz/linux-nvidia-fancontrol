@@ -3,7 +3,7 @@
 # Step 2
 ## Open Xwrapper config file
  > sudo vi /etc/X11/Xwrapper.config
-## Before _allowed_users=console_ add the line 
+## Before _allowed_users=console_ add the following line 
  > needs_root_rights=yes
 
 # Step 3. Coolbits-4 installation
@@ -18,4 +18,5 @@
 Thanks to
 
 [Galang Hanafi](https://github.com/galanghanaf/fix-manual-fan-control-nvidia-linux) 
+
 [Roberto Leinardi ](https://gitlab.com/leinardi/gwe)
