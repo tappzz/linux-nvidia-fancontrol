@@ -7,7 +7,10 @@
  > needs_root_rights=yes
 ## *On Fedora Linux you may have to add both of these lines
  > needs_root_rights=yes
+
  > allowed_users=console
+
+Write-out and save the file. Reboot your PC
 
 
 # Step 3. Coolbits-4 installation
