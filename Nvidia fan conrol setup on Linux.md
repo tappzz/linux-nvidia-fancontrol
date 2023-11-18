@@ -1,7 +1,7 @@
 # Step 1. Fix _Unable to open X config file '/etc/X11/xorg.conf' for writing_ error 
 > sudo chmod +x /usr/share/screen-resolution-extra/nvidia-polkit
-# Step 2
-## Open Xwrapper config file
+# Step 2 Configuring Xwrapper.config file
+## Open Xwrapper.config file by typing
  > sudo vi /etc/X11/Xwrapper.config
 ## Before _allowed_users=console_ add the following line 
  > needs_root_rights=yes
