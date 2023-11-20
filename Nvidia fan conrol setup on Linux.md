@@ -3,14 +3,14 @@
 # Step 2 Configuring Xwrapper.config file
 ## Open Xwrapper.config file by typing
  > sudo vi /etc/X11/Xwrapper.config
-## Before _allowed_users=console_ add the following line 
+## Before _allowed_users=console_ add the following line: 
  > needs_root_rights=yes
-## *On Fedora Linux you may have to add both of these lines
+## *On Fedora Linux, you may have to add both of these lines:
  > needs_root_rights=yes
 
  > allowed_users=console
 
-Write-out and save the file. Reboot your PC
+Write-out and save the file. Reboot your PC.
 
 
 # Step 3. Coolbits-4 installation
